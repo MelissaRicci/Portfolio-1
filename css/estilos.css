@@ -120,12 +120,12 @@ section{
     padding:.7rem;
     border-radius: 5rem;
     font-size: 2rem;
-    box-shadow: var(--box-shadow);
+    border: 1px solid #bc815d;
     color:var(--black);
 }
 
 .header .navbar a:hover{
-    box-shadow: var(--box-shadow-inset);
+    border: 1px solid #bc815d;
     background-color: rgb(255, 238, 208);
     color: #bc815d;
 }
@@ -444,7 +444,7 @@ section{
     padding:1rem 1.5rem;
     width:100%;
     background: none;
-    color:var(--black);
+    color:#fff;
     font-size: 1.6rem;
     text-transform: none;
     margin:.7rem 0;
@@ -467,11 +467,11 @@ section{
     padding:2.5rem 1rem;
     margin-top: 1rem;
     border-top: var(--border);
-    color:var(--black);
+    color:#fdf9e2;
 }
 
 .credits span{
-    color: var(--green);
+    color: #bc815d;
 }
 
 
