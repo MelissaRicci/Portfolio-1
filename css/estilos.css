@@ -214,8 +214,25 @@ section{
 }
 
 .home .share a:hover{
-    box-shadow: var(--box-shadow-inset);
+    background-color: #ffff;
     color:#bc815d;
+}
+
+.links {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    border: 1px solid #bc815d;
+    margin:.5rem;
+    font-size: 3rem;
+    color: #fdf9e2;
+    border-radius: .5rem;
+}
+
+.links:hover{
+    background-color: #ffff;
+    color:#bc815d;
+    border: 2px solid #bc815d;
 }
 
 .about .row{
@@ -430,6 +447,14 @@ section{
 .portfolio .box-container .box:hover .content h3{
     transform: translateY(0rem);
     opacity: 1;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .contact form{
